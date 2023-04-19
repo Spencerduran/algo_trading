@@ -1,0 +1,19 @@
+{
+  "simulation_mode": true,
+  "trade_station": {
+    "client_id": "",
+    "client_secret": "",
+    "refresh_token": "",
+    "account_id": ""
+  },
+  "order_details": {
+    "order_type": "Market",
+    "quantity": 1,
+    "asset_type": "FUTURE",
+    "price": null,
+    "duration": "GTC",
+    "market_session": "Regular",
+    "route": null
+  },
+  "log_path": "log.txt"
+}
