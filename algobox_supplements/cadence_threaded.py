@@ -18,15 +18,15 @@ class CounterApp:
         button_frame.pack(side=tk.RIGHT, fill=tk.BOTH, expand=True)
 
         # increment button
-        self.inc_button = tk.Button(button_frame, text='+', command=self.increment, fg='black', bg='white', font=("", 45))
+        self.inc_button = tk.Button(button_frame, text='+', command=self.increment, fg='white', bg='black', font=("", 45))
         self.inc_button.pack(fill=tk.BOTH, expand=True)
 
         # clear button
-        self.clear_button = tk.Button(button_frame, text='clear', command=self.clear, fg='black', bg='white', font=("", 45))
+        self.clear_button = tk.Button(button_frame, text='clear', command=self.clear, fg='white', bg='black', font=("", 45))
         self.clear_button.pack(fill=tk.BOTH, expand=True)
 
         # decrement button
-        self.dec_button = tk.Button(button_frame, text='-', command=self.decrement, fg='black', bg='white', font=("", 45))
+        self.dec_button = tk.Button(button_frame, text='-', command=self.decrement, fg='white', bg='black', font=("", 45))
         self.dec_button.pack(fill=tk.BOTH, expand=True)
 
     def increment(self):
